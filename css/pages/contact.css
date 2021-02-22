@@ -1,0 +1,53 @@
+.main__title .icon-envelope-o {
+    font-size: 45px;
+    padding: 10px;
+    color: #999999;
+}
+/*contact*/
+.contact__conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact__form p {
+    width: 500px;
+    margin-top: 40px;
+}
+.contact__form form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.map h2 {
+    margin-top: 40px;
+}
+form input {
+    padding: 10px;
+}
+form label,
+button {
+    margin-top: 15px;
+    font-weight: bold;
+}
+form textarea {
+    padding: 10px 0px 100px 10px;
+}
+form button {
+    width: 150px;
+    padding: 10px;
+    color: #f8f8f8;
+    background: #9d426b;
+    border: none;
+    cursor: pointer;
+}
+
+/*@media*/
+@media (max-width: 1200px) {
+    .conteiner {
+        max-width: 970px;
+        background: red;
+    }
+    .contact__conteiner {
+        flex-wrap: wrap;
+    }
+}

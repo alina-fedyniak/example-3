@@ -1,0 +1,16 @@
+.main__title .icon-comments-o {
+    font-size: 45px;
+    padding: 10px;
+    color: #999999;
+}
+.blog__info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+.blog__info h2 {
+    color: #333333;
+}
+.blog__info p {
+    color: #888888;
+}
