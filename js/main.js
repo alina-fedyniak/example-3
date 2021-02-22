@@ -67,7 +67,6 @@ jQuery(document).ready(function($) {
     });
 
     $('.nav li').on('click', function () {
-        console.log($(this).find('a').attr('href'));
         window.location = $(this).find('a').attr('href')
     });
 
